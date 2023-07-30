@@ -5,8 +5,6 @@ namespace Auto_Steam_Fix
 {
     class SteamData
     {
-     
-       
         public class Data
         {
             public string type { get; set; }
@@ -22,7 +20,6 @@ namespace Auto_Steam_Fix
             public string reviews { get; set; }
             public string header_image { get; set; }
             public string website { get; set; }
-           
         }
 
         public class Base

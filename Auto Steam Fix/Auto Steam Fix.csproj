@@ -86,13 +86,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DLCUnlocker.cs">
+    <Compile Include="DLC Unlocker\DLCUnlocker.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DLCUnlocker.Designer.cs">
+    <Compile Include="DLC Unlocker\DLCUnlocker.Designer.cs">
       <DependentUpon>DLCUnlocker.cs</DependentUpon>
     </Compile>
-    <Compile Include="INIReader.cs" />
+    <Compile Include="External\INI Reader\INIReader.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,13 +108,13 @@
       <DependentUpon>Splash.cs</DependentUpon>
     </Compile>
     <Compile Include="SteamData.cs" />
-    <Compile Include="SteamFix.cs">
+    <Compile Include="SteamFix\SteamFix.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="SteamFix.Designer.cs">
+    <Compile Include="SteamFix\SteamFix.Designer.cs">
       <DependentUpon>SteamFix.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="DLCUnlocker.resx">
+    <EmbeddedResource Include="DLC Unlocker\DLCUnlocker.resx">
       <DependentUpon>DLCUnlocker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
@@ -133,7 +133,7 @@
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SteamFix.resx">
+    <EmbeddedResource Include="SteamFix\SteamFix.resx">
       <DependentUpon>SteamFix.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
