@@ -477,7 +477,6 @@
             this.FolderL.Size = new System.Drawing.Size(134, 21);
             this.FolderL.TabIndex = 9;
             this.FolderL.Text = "Game Directory";
-            this.FolderL.Click += new System.EventHandler(this.FolderL_Click);
             // 
             // FKAppIDText
             // 
@@ -497,7 +496,6 @@
             this.FKAppIDText.TabIndex = 6;
             this.FKAppIDText.Text = "480";
             this.FKAppIDText.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.FKAppIDText.OnValueChanged += new System.EventHandler(this.FKAppIDText_OnValueChanged);
             // 
             // FakeAppIDL
             // 

@@ -196,12 +196,6 @@ namespace Auto_Steam_Fix
             dlcUnlocker1.Visible = false;
             DLCBack.Visible = false;
         }
-
-        private void dlcUnlocker1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         #endregion
     }
 }

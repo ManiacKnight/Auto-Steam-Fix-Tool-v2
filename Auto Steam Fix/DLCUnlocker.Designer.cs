@@ -64,7 +64,6 @@
             // 
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
-            this.fileSystemWatcher1.Changed += new System.IO.FileSystemEventHandler(this.fileSystemWatcher1_Changed);
             // 
             // EventLog_Animation
             // 
@@ -109,7 +108,6 @@
             this.SteamFixTab.VerticalScrollbarBarColor = true;
             this.SteamFixTab.VerticalScrollbarHighlightOnWheel = false;
             this.SteamFixTab.VerticalScrollbarSize = 10;
-            this.SteamFixTab.Click += new System.EventHandler(this.SteamFixTab_Click);
             // 
             // TestBox
             // 
@@ -128,7 +126,6 @@
             this.TestBox.Size = new System.Drawing.Size(206, 44);
             this.TestBox.TabIndex = 17;
             this.TestBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.TestBox.OnValueChanged += new System.EventHandler(this.TestBox_OnValueChanged);
             // 
             // bunifuCustomLabel5
             // 
@@ -141,7 +138,6 @@
             this.bunifuCustomLabel5.Size = new System.Drawing.Size(127, 21);
             this.bunifuCustomLabel5.TabIndex = 18;
             this.bunifuCustomLabel5.Text = "Store Page Link";
-            this.bunifuCustomLabel5.Click += new System.EventHandler(this.bunifuCustomLabel5_Click);
             // 
             // BrowseB
             // 
@@ -181,7 +177,6 @@
             this.FolderL.Size = new System.Drawing.Size(134, 21);
             this.FolderL.TabIndex = 9;
             this.FolderL.Text = "Game Directory";
-            this.FolderL.Click += new System.EventHandler(this.FolderL_Click_1);
             // 
             // FolderT
             // 
@@ -200,7 +195,6 @@
             this.FolderT.Size = new System.Drawing.Size(206, 44);
             this.FolderT.TabIndex = 10;
             this.FolderT.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.FolderT.OnValueChanged += new System.EventHandler(this.FolderT_OnValueChanged_2);
             // 
             // Btn_Apply
             // 
@@ -260,7 +254,6 @@
             this.Event_Logger.Size = new System.Drawing.Size(409, 422);
             this.Event_Logger.TabIndex = 16;
             this.Event_Logger.Visible = false;
-            this.Event_Logger.Paint += new System.Windows.Forms.PaintEventHandler(this.Event_Logger_Paint);
             // 
             // Replacing_Log
             // 
@@ -277,7 +270,6 @@
     "        ";
             this.Replacing_Log.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Replacing_Log.Visible = false;
-            this.Replacing_Log.Click += new System.EventHandler(this.Replacing_Log_Click);
             // 
             // Failed_Log
             // 
@@ -294,7 +286,6 @@
     "              ";
             this.Failed_Log.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Failed_Log.Visible = false;
-            this.Failed_Log.Click += new System.EventHandler(this.Failed_Log_Click);
             // 
             // api64Found_Log
             // 
@@ -310,7 +301,6 @@
             this.api64Found_Log.Text = "                           steam_api64 was found!                          ";
             this.api64Found_Log.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.api64Found_Log.Visible = false;
-            this.api64Found_Log.Click += new System.EventHandler(this.api64Found_Log_Click);
             // 
             // apiFound_log
             // 
@@ -326,7 +316,6 @@
             this.apiFound_log.Text = "                              steam_api was found!                           ";
             this.apiFound_log.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.apiFound_log.Visible = false;
-            this.apiFound_log.Click += new System.EventHandler(this.apiFound_log_Click);
             // 
             // Searching32_Log
             // 
@@ -342,7 +331,6 @@
             this.Searching32_Log.Text = "                      Searching For steam_api.dll                        ";
             this.Searching32_Log.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Searching32_Log.Visible = false;
-            this.Searching32_Log.Click += new System.EventHandler(this.Searching32_Log_Click);
             // 
             // Searching64_log
             // 
@@ -358,7 +346,6 @@
             this.Searching64_log.Text = "                      Searching For steam_api64.dll                      ";
             this.Searching64_log.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Searching64_log.Visible = false;
-            this.Searching64_log.Click += new System.EventHandler(this.Searching64_log_Click);
             // 
             // apiNotFound_Log
             // 
@@ -374,7 +361,6 @@
             this.apiNotFound_Log.Text = "                        steam_api was not found!                         ";
             this.apiNotFound_Log.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.apiNotFound_Log.Visible = false;
-            this.apiNotFound_Log.Click += new System.EventHandler(this.apiNotFound_Log_Click);
             // 
             // api64NotFound_Log
             // 
@@ -390,7 +376,6 @@
             this.api64NotFound_Log.Text = "                         steam_api64 was not found!                     ";
             this.api64NotFound_Log.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.api64NotFound_Log.Visible = false;
-            this.api64NotFound_Log.Click += new System.EventHandler(this.api64NotFound_Log_Click);
             // 
             // bunifuCustomLabel4
             // 
@@ -404,7 +389,6 @@
             this.bunifuCustomLabel4.Size = new System.Drawing.Size(0, 21);
             this.bunifuCustomLabel4.TabIndex = 23;
             this.bunifuCustomLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuCustomLabel4.Click += new System.EventHandler(this.bunifuCustomLabel4_Click);
             // 
             // Success_Log
             // 
@@ -421,7 +405,6 @@
     "           ";
             this.Success_Log.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Success_Log.Visible = false;
-            this.Success_Log.Click += new System.EventHandler(this.Success_Log_Click);
             // 
             // btn_ApplyDone
             // 
@@ -474,7 +457,6 @@
             this.AlreadyApplied.Text = "                        SteamFix Already Applied!                         ";
             this.AlreadyApplied.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.AlreadyApplied.Visible = false;
-            this.AlreadyApplied.Click += new System.EventHandler(this.AlreadyApplied_Click);
             // 
             // SteamFixTabControl
             // 
@@ -487,7 +469,6 @@
             this.SteamFixTabControl.Style = MetroFramework.MetroColorStyle.Black;
             this.SteamFixTabControl.TabIndex = 1;
             this.SteamFixTabControl.UseSelectable = true;
-            this.SteamFixTabControl.SelectedIndexChanged += new System.EventHandler(this.SteamFixTabControl_SelectedIndexChanged);
             // 
             // DLCUnlocker
             // 

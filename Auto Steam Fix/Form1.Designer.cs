@@ -434,7 +434,6 @@
             this.dlcUnlocker1.Size = new System.Drawing.Size(529, 599);
             this.dlcUnlocker1.TabIndex = 12;
             this.dlcUnlocker1.Visible = false;
-            this.dlcUnlocker1.Load += new System.EventHandler(this.dlcUnlocker1_Load);
             // 
             // steamFix1
             // 

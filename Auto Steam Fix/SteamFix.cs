@@ -40,6 +40,10 @@ namespace Auto_Steam_Fix
 
          private void Btn_Apply_Click(object sender, EventArgs e)
         {
+
+            if (TestBox.Text == string.Empty)
+                return;
+
             string resultString = Regex.Match(TestBox.Text, @"\d+").Value;
             int AppID = Int32.Parse(resultString);
             string GameURL = "https://store.steampowered.com/api/appdetails/?appids=" + AppID;
@@ -713,16 +717,6 @@ namespace Auto_Steam_Fix
         {           
             StubDRM_Panel.Visible = false;
             Stub_Suc.Visible = false;
-        }
-
-        private void FKAppIDText_OnValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FolderL_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
