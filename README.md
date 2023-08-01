@@ -1,8 +1,8 @@
 # Auto Steam Fix Tool v2
 
-![image](https://github.com/ManiacKnight/Auto-Steam-Fix-Tool-v2/assets/50814368/63b8e07c-9a0c-4d38-bf24-58789042dccd)
+![Screenshot 2023-08-01 105931](https://github.com/ManiacKnight/Auto-Steam-Fix-Tool-v2/assets/50814368/9bd5816a-effd-425d-9a7c-b15b454e5048)
 
-![image](https://github.com/ManiacKnight/Auto-Steam-Fix-Tool-v2/assets/50814368/60e506c7-9df3-4755-91a0-444ceb9e46b2)
+![DmPapH1](https://github.com/ManiacKnight/Auto-Steam-Fix-Tool-v2/assets/50814368/2e956a95-f5ab-44e6-a1e9-747fe667f1b7)
 
 ## NOTE: THIS REPO IS ONLY FOR ARCHIVE PURPOSES
 ### It also does **NOT** reflect on my current coding skills and techniques, this code hasn't been touched for 5+ years.
