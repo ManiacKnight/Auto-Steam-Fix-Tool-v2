@@ -5,7 +5,7 @@
 ![image](https://github.com/ManiacKnight/Auto-Steam-Fix-Tool-v2/assets/50814368/60e506c7-9df3-4755-91a0-444ceb9e46b2)
 
 ## NOTE: THIS REPO IS ONLY FOR ARCHIVE PURPOSES
-### It also does **NOT** reflect on my current coding skills and techniques, this code hasn't been touched for five years.
+### It also does **NOT** reflect on my current coding skills and techniques, this code hasn't been touched for 5+ years.
 
 Auto Steam Fix Tool is the first "major"/public project I had worked on all the way back in 7th-8th grade.
 It's nothing but an elementary automation tool created for ease of use purposes, generating and troubleshooting Steamworks Fixes (or Multiplayer Cracks) with just a few clicks.
